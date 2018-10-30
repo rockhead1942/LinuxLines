@@ -1,0 +1,64 @@
+MASTER PROC:  WORKSTATION RECOVERY: Date Certified: [Tue 25 SEP 2018  EDT ]
+Dates Practiced: [3-20-2018][9-22-2018][9-23-2018][9-25-2018]  
+NOTES: Best Time(s) for complete recovery steps 0-10
+
+RECOVERY INVENTORY: 1-RECOVERY BOOTSTICK FORMATTED:Linux EXT4 and image burnt AS FOLLOWS:
+<<< [linuxmint-19-64bit-v2.iso] (SHA256SUM hash compared to integrity check SHA256 Sums on Record>>>
+
+~10 min___ Step 0.1-Create Verified Boot Stick: from .iso file downloaded from Certified .iso Respository 
+     linuxmint-19-mate-64bit-v2.iso SHA256SUM HASH CODE = f8164654b7600ced1aa8ef6abee2e56620388b0baa161d7b17699f425223d7c7
+
+TIME  START OF MAIN RECOVERY
+___ 
+ TIME STAMPS                RESTORRAL STEPS IN PRIORITY ORDER
+___        1.0-Boot to Live Session from Verified Boot Stick (See Step 0 ABove)                     
+
+___        2.0-Install to designated boot-drive
+                     ctrl-alt-t  (to bring up Terminal Session)Config Terminal
+                    fdisk -l (to check correct device for installation)
+
+___        3.0-Apply latest patches/updates
+                    run Update Manager
+
+___        4.0-Setup Thunderbird on Primary Email Acct
+___             4.1 Download .ldif Address Books and Import to T'bird
+
+___        5.0-Set-up/configure Firefox SYNC 
+
+___        6.0-Install Dropbox App from Mint System/Admin./SoftwareMgr/Dropbox
+     
+___        7.0-Install Google Chrome Browser command stack follows:
+                        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+                        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+                        sudo apt update
+                        sudo apt install -y google-chrome-stable
+___        8.0-Install Rednotebook Journal App command stack follows:
+                        sudo add-apt-repository ppa:rednotebook/stable
+                        sudo apt-get update
+                        sudo apt-get install rednotebook
+___             8.1 Populate RNB backup data to /don/.rednotebook/data
+                        NOTE: Got to Dbox Repo for RNB BU .zip file with most recent time stamp
+            9.0    Ten Essential Actions "Things to DO First In Linux Mint MATE [19]"
+            10.0   Install Printer(s) 
+            11.0   Restore /Docs /Pics /Music
+Total Time Elapsed:                
+NOTES: Post inxi -bP 
+
+
+
+
+CRUCIAL CONNECTION INFORMATION:
+Network:BDNet
+Cable Modem IP: 192.168.100.1
+bdnet/3milecreek
+WiFi Router: 192.168.0.1
+bdnet1/Rowena81
+___________________________
+dropbox id/pw dbdouglass@comcast.net/paLindrome
+___________________________
+Comcast id/pw dbdouglass@comcast.net/proMetheu#
+---------------------------
+WiFi Login pw/id TP-LinK_38da/59269588
+---------------------------
+Firefox Sync id/pw: dbdouglass@comcast.net/cabbagehill229
+Google id/pw: dondouglass.sr@gmail.com/miltonfreewater229
